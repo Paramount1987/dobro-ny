@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewYear</title>
+    <link href="style/screen.css" rel="stylesheet" media="all">
+  </head>
+<body>
+    <div class="wrapper">
+  
+      <header>
+        <div class="container">
+
+          <div class="container-header">
+            <div class="link-active"><a href="#" class="modal-link" data-toggle="modal" data-target="#modal-dobro-5">Активировать Карту Добра</a></div>
+            <div class="link-share"><a href="#">Поделиться добром</a></div>
+            <div class="cloud-dobro"><a href="#"><img src="i/icons/dobro.png" alt-""></a></div>
+          </div>
+
+        </div><!-- end container -->
+      </header>
+
+      <div class="modal fade" id="modal-dobro" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title">Спасибо за помощь!</h4>
+            </div>
+            <div class="modal-body">
+              <p>Ваше доброе дело помогло подарить праздник и поддержку</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn-yellow btn-sm" data-dismiss="modal">Хорошо</button>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+
+      <div class="modal fade" id="modal-dobro-2" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title">Спасибо, <br> все средства перечислены!</h4>
+            </div>
+            <div class="modal-body">
+              <p>Вы можете продолжить помогать<br> на сайте Добро Mail.Ru</p>
+            </div>
+            <div class="modal-footer">
+              <a href="#" class="btn-yellow btn-lg" data-dismiss="modal">Перейти на сайт</a>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+
+      <div class="modal fade" id="modal-dobro-3" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title">Расскажите о добром деле друзьям</h4>
+            </div>
+            <div class="modal-body">
+              <img src="i/snow.jpg" alt="snow"  class="img-modal">
+              <p class="text-md-lg">Каждый четвертый человек будет помогать, если узнает, что вы это делаете</p>
+            </div>
+            <div class="modal-footer">
+              <ul class="list-inline list-social">
+                <li><a href="#" class="social-link icon-facebook"></a></li>
+                <li><a href="#" class="social-link icon-vkontakte"></a></li>
+                <li><a href="#" class="social-link icon-odnoklassniki"></a></li>
+                <li><a href="#" class="social-link icon-twitter"></a></li>
+              </ul>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->   
+
+      <div class="modal fade" id="modal-dobro-4" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <ul class="nav nav-tabs">
+                <li class="active"><a href="#card" data-toggle="tab">Помочь Картой Добра</a></li>
+                <li><a href="#cash" data-toggle="tab">Помочь деньгами</a></li>
+              </ul>
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <div class="modal-body">
+
+              <div class="tab-content">
+                <div class="tab-pane fade in active" id="card">
+                    <p class="tab-title">Вы можете помочь деньгами с использованием банковской карты, мобильного счета или электронных денег</p>
+                    <form class="form-modal">
+                      <p>Введите сумму для поддержки проекта</p>
+                      <div class="form-group">
+                        <input type="text" class="form-control">
+                      </div>
+                      <p class="text-red">Средств на карте недостаточно</p>
+                      <button type="submit" class="btn-yellow btn-sm">Помочь</button>
+                    </form>
+                </div>
+                <div class="tab-pane fade" id="cash">
+                    <h4 class="modal-title">На вашей Карте Добра осталось 10 000 руб.</h4>
+                    <form class="form-modal">
+                      <p>Введите сумму для поддержки проекта</p>
+                      <div class="form-group">
+                        <input type="text" class="form-control">
+                      </div>
+                      <p class="text-red">Средств на карте недостаточно</p>
+                      <button type="submit" class="btn-yellow btn-sm">Помочь</button>
+                    </form>
+                </div>
+              </div>
+
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->   
+
+      <div class="modal fade" id="modal-dobro-5" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title">Для активации введите уникальный код<br> с вашей Карты Добра</h4>
+            </div>
+            <div class="modal-body">
+                      <div class="form-group form-group-code">
+                        <input type="text" class="form-control" maxlength="8">
+                      </div>
+              <p class="text-red">Кажется, вы ошиблись.<br>Пожалуйста, введите код еще раз.</p>
+            </div>
+            <div class="modal-footer">
+              <p class="text-sm">Если у вас нет Карты Добра, вы можете <a href="#" class="link-blue">помочь деньгами</a></p>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal --> 
+
+      <div class="middle">
+
+        <div class="container">
+
+          <div class="top-text">
+            <p class="center-text">Этот текст предназначен исключительно 
+                для понимания объемов занимаемой вводной частью площади и не более. В этом году благотворительность будет не такой, 
+                как в прошлом. В этом году мы все увидим положительную динамику и сможем наблюдать тенденции роста.
+            </p>
+            <p class="center-text">
+              Чтобы убедиться в этом самостоятельно, активируйте свою Карту Добра и получите от этого огромное благотворительное удовольствие. Будьте сознательными гражданами, дарите праздник тем, кто в нём нуждается, сортируйте мусор и голосуйте на выборах. И да прибудет с вами сила. 
+            </p>
+
+            <div class="cloud-float">
+              <h4 class="title">Вы можете <br>пожертвовать ещё</h4>
+              <p class="text-price">120 548 руб.</p>
+            </div>
+          </div><!-- end top-text -->
+
+          <div class="context-wrap">
+            <div class="context-item cloud-1">
+              <div class="context-inner">
+                <h4 class="context-title">Научиться помогать окружающим всегда и везде</h4>
+                <div class="context-inner-body">
+                  <div class="pull-left">
+                    <div class="img-wrap"><img src="i/img1.jpg" alt=""></div>
+
+                  </div>
+                  <div class="pull-right">
+                    <p>Помочь четырёхлетней Лере — девочке с хрупкой, как крыло бабочки, кожей. Ей нужны специальные средства, чтобы перестать терпеть. Терпеть постоянную боль и сдерживать слёзы. </p>
+                  </div>
+                </div>
+                <div class="context-inner-footer">
+                  <div class="pull-left">
+                    <a href="#" class="btn">Помочь</a>
+                  </div>
+                  <div class="pull-right">
+                    <div class="context-mark">
+                      <span class="context-mark-title">Собрано:</span>
+                      <span class="context-mark-body">
+                        <span>63 582</span>
+                        <span>из</span>
+                        <span>115 568</span>
+                      </span>
+                      <div class="mark-value">55%</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="context-item cloud-2">
+              <div class="context-inner">
+                <h4 class="context-title">Научиться помогать окружающим всегда и везде</h4>
+                <div class="context-inner-body">
+                  <div class="pull-left">
+                    <div class="img-wrap"><img src="i/img2.jpg" alt=""></div>
+
+                  </div>
+                  <div class="pull-right">
+                    <p>Помочь четырёхлетней Лере — девочке с хрупкой, как крыло бабочки, кожей. Ей нужны специальные средства, чтобы перестать терпеть. Терпеть постоянную боль и сдерживать слёзы. </p>
+                  </div>
+                </div>
+                <div class="context-inner-footer">
+                  <div class="pull-left">
+                    <a href="#" class="btn">Помочь</a>
+                  </div>
+                  <div class="pull-right">
+                    <div class="context-mark">
+                      <span class="context-mark-title">Собрано:</span>
+                      <span class="context-mark-body">
+                        <span>63 582</span>
+                        <span>из</span>
+                        <span>115 568</span>
+                      </span>
+                      <div class="mark-value">55%</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>    
+            <div class="context-item cloud-3">
+              <div class="context-inner">
+                <h4 class="context-title">Научиться помогать окружающим всегда и везде</h4>
+                <div class="context-inner-body">
+                  <div class="pull-left">
+                    <div class="img-wrap"><img src="i/img3.jpg" alt=""></div>
+
+                  </div>
+                  <div class="pull-right">
+                    <p>Помочь четырёхлетней Лере — девочке с хрупкой, как крыло бабочки, кожей. Ей нужны специальные средства, чтобы перестать терпеть. Терпеть постоянную боль и сдерживать слёзы. </p>
+                  </div>
+                </div>
+                <div class="context-inner-footer">
+                  <div class="pull-left">
+                    <a href="#" class="btn">Помочь</a>
+                  </div>
+                  <div class="pull-right">
+                    <div class="context-mark">
+                      <span class="context-mark-title">Собрано:</span>
+                      <span class="context-mark-body">
+                        <span>63 582</span>
+                        <span>из</span>
+                        <span>115 568</span>
+                      </span>
+                      <div class="mark-value">55%</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>    
+            <div class="context-item cloud-4">
+              <div class="context-inner">
+                <h4 class="context-title">Обнять</h4>
+                <div class="context-inner-body">
+                  <div class="pull-left">
+                    <div class="img-wrap"><img src="i/img4.jpg" alt=""></div>
+
+                  </div>
+                  <div class="pull-right">
+                    <p>Помочь четырёхлетней Лере — девочке с хрупкой, как крыло бабочки, кожей. Ей нужны специальные средства, чтобы перестать терпеть. Терпеть постоянную боль и сдерживать слёзы. </p>
+                  </div>
+                </div>
+                <div class="context-inner-footer">
+                  <div class="pull-left">
+                    <a href="#" class="btn">Помочь</a>
+                  </div>
+                  <div class="pull-right">
+                    <div class="context-mark">
+                      <span class="context-mark-title">Собрано:</span>
+                      <span class="context-mark-body">
+                        <span>63 582</span>
+                        <span>из</span>
+                        <span>115 568</span>
+                      </span>
+                      <div class="mark-value">55%</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>    
+
+          </div>
+
+        </div> <!-- end container -->
+<!--         <div class="cloud-self">
+          <h4 class="title">Вы можете пожертвовать ещё</h4>
+          <p class="donate">120 548 руб.</p>
+        </div> -->
+      </div><!-- end middle -->
+
+      <div class="footer">
+        <div class="girl"></div>
+        <div class="tree"></div>
+        <div class="social-wrap">
+            <div class="social-header">
+              Поделитесь добром с друзьями
+            </div>
+            <p class="sn cf share-block " data-share-url="http://dobro.mail.ru/projects/zaschiti-detej/" data-share-text="БФ «Дети наши» продолжает программу «Не разлей вода»: помогает детям, оставшимся без родителей, найти дорогу к дому: вернуться в свою семью или обрести новую." data-short-share-text="Добро Mail.Ru: Поможем детям найти семью!" data-share-image="http://dobro.mail.ru/media/images/412/458/-991012786765653381.jpg" data-share-title="Добро Mail.Ru: Поможем детям найти семью!" data-is-loaded="loaded">
+            <em class="social_container"><a data-social_network="myworld" href="#" class="sn-mm share-button myworld-share-button" title="Мой Мир">Мой Мир</a><em class="sn-c myworld-share-counter">16</em></em><em class="social_container"><a data-social_network="odnoklassniki" href="#" class="sn-ok share-button odnoklassniki-share-button" title="Одноклассники">Одноклассники</a></em><em class="social_container"><a data-social_network="facebook" href="#" class="sn-fb share-button facebook-share-button" title="Facebook">Facebook</a><em class="sn-c facebook-share-counter">13</em></em><em class="social_container"><a data-social_network="vkontakte" href="#" class="sn-vk share-button vkontakte-share-button" title="ВКонтакте">ВКонтакте</a><em class="sn-c vkontakte-share-counter">10</em></em><em class="social_container"><a data-social_network="twitter" href="#" class="sn-tw share-button twitter-share-button" title="Twitter">Twitter</a><em class="sn-c twitter-share-counter">2</em></em>
+            </p>
+        <div class="bottom-menu">
+          <ul class="menu-list">
+            <li><a href="#">Mail.Ru</a></li>
+            <li><a href="#">О компании</a></li>
+            <li><a href="#">Часто задаваемые вопросы</a></li>
+            <li><a href="#">Обратная связь</a></li>
+            <li><a href="#">Пользовательское соглашение</a></li>
+          </ul>
+        </div>
+        </div>
+
+      </div>
+    </div><!-- end wrapper -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
