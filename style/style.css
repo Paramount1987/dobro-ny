@@ -539,15 +539,15 @@ body { height: 100%; background: url("../i/icons/blue4.jpg") repeat; }
 
 .girl { position: absolute; z-index: 6; bottom: 290px; left: 10px; display: inline-block; width: 128px; height: 178px; background: url("../i/girl.png") no-repeat; background-size: contain; }
 
-.tree { position: absolute; z-index: 5; bottom: 290px; right: -10px; width: 300px; height: 430px; background-image: url("../i/el.png"); background-size: contain; }
+.tree { position: absolute; z-index: 5; bottom: 290px; right: -10px; width: 300px; height: 430px; background-image: url("../i/el.png"); background-size: contain; background-repeat: no-repeat; }
 
-.tree.status-25 { background-image: url("../i/el3.png"), url("../i/el.png"); background-size: contain, contain; }
+.tree.status-25 { background-image: url("../i/el3.png"), url("../i/el.png"); background-size: contain, contain; background-repeat: no-repeat, no-repeat; }
 
-.tree.status-50 { background-image: url("../i/el3.png"), url("../i/el2.png"), url("../i/el.png"); background-size: contain, contain, contain; }
+.tree.status-50 { background-image: url("../i/el3.png"), url("../i/el2.png"), url("../i/el.png"); background-size: contain, contain, contain; background-repeat: no-repeat, no-repeat, no-repeat; }
 
-.tree.status-75 { background-image: url("../i/el4.png"), url("../i/el3.png"), url("../i/el2.png"), url("../i/el.png"); background-size: contain, contain, contain, contain; }
+.tree.status-75 { background-image: url("../i/el4.png"), url("../i/el3.png"), url("../i/el2.png"), url("../i/el.png"); background-size: contain, contain, contain, contain; background-repeat: no-repeat, no-repeat, no-repeat, no-repeat; }
 
-.tree.status-100 { background-image: url("../i/el5.png"), url("../i/el4.png"), url("../i/el3.png"), url("../i/el2.png"), url("../i/el.png"); background-size: contain, contain, contain, contain, contain; }
+.tree.status-100 { background-image: url("../i/el5.png"), url("../i/el4.png"), url("../i/el3.png"), url("../i/el2.png"), url("../i/el.png"); background-size: contain, contain, contain, contain, contain; background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat; }
 
 .tree { -webkit-animation: tree_a 8s linear; -o-animation: tree_a 8s linear; animation: tree_a 8s linear; }
 
