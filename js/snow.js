@@ -24,7 +24,7 @@
 				defaults		= {
 									minSize		: 10,
 									maxSize		: 20,
-									newOn		: 500,
+									newOn		: 1000,
 									flakeColor	: "#FFFFFF"
 								},
 				options			= $.extend({}, defaults, options);
