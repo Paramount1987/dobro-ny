@@ -10,7 +10,8 @@ $(document).ready(function(){
   $(window).resize(function(){
 
 	clearInterval(intervalDobro); 
-	$(".flake").remove(); 	
+	$(".flake").remove(); 
+	$.fn.snow();	
   });
 
 });
