@@ -487,6 +487,13 @@ tbody.collapse.in { display: table-row-group; }
 @media (min-width: 1260px) { .cloud-float { left: 10%; padding: 40px 10px 10px 70px; } }
 @media (min-width: 1400px) { .cloud-float { left: 15%; } }
 @media (min-width: 1900px) { .cloud-float { left: 20%; } }
+#flake { z-index: 50; }
+
+.link-projects { position: relative; top: -15px; display: block; width: 250px; height: 64px; margin: 0 auto 0; padding: 10px 0 0 0; color: #fff; font-family: "pf_beausans_probsemibold"; font-size: 18px; line-height: 20px; text-align: center; background: url("../i/or.png") no-repeat; background-position: 0 0; background-size: 250px 128px; }
+.link-projects:hover, .link-projects:active, .link-projects:focus { text-decoration: none; color: #fff; background-position: 0 -64px; }
+
+@media (min-width: 767px) { .link-projects { top: 20px; } }
+@media (min-width: 1260px) { .link-projects { top: -200px; } }
 .middle { position: relative; z-index: 10; width: 100% !important; overflow: hidden; }
 
 header { position: relative; z-index: 5; }
@@ -527,7 +534,7 @@ html { position: relative; height: 100%; }
 
 body { height: 100%; background: url("../i/icons/blue4.jpg") repeat; }
 
-.middle { position: relative; z-index: 20; }
+.middle { position: relative; z-index: 20; padding-bottom: 40px; }
 
 .wrapper { min-height: 100%; overflow: hidden; position: relative; z-index: 5; padding-bottom: 670px; background: url("../i/fonel-mob.png") center bottom no-repeat, url("../i/fon-mob.jpg") top center no-repeat; background-size: 768px 700px, 768px auto; }
 
