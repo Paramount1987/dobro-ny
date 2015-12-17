@@ -1185,6 +1185,15 @@ tbody.collapse.in {
       padding: 0 20px 0 0px; }
     .cloud-1 .context-inner-body .pull-right {
       width: 220px; } }
+@media (min-width: 1360px) {
+  .cloud-1 {
+    padding: 68px 95px 0 90px; }
+    .cloud-1 .context-inner-footer {
+      padding: 5px 5px 0 70px; }
+    .cloud-1 .context-title {
+      padding: 0 20px 0 20px; }
+    .cloud-1 .context-inner-body .pull-right {
+      width: 250px; } }
 @media (min-width: 767px) {
   .cloud-2 {
     z-index: 5;
