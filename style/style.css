@@ -1598,7 +1598,12 @@ body {
   .footer .girl {
     left: 20%; }
   .footer .tree {
-    right: 5%; } }
+    right: 1%; } }
+@media (min-width: 2300px) {
+  .footer .girl {
+    left: 25%; }
+  .footer .tree {
+    right: 8%; } }
 .social-header {
   position: relative;
   z-index: 10;
