@@ -1661,7 +1661,13 @@ body {
     .menu-list a:hover {
       color: #E44804; }
 
+.social-wrap {
+  background: #fff; }
+
 @media (min-width: 767px) {
+  .social-wrap {
+    background: none; }
+
   .menu-list {
     display: inline-block; }
     .menu-list li {
