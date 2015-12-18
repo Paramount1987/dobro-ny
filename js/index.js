@@ -27,6 +27,29 @@ $('.modal').on('show.bs.modal', function (e) {
  //  });
 
 /////////////////////////////////////
+// function textb(str){
+//     str = str.trim();
+//     var words = str.split(' ');
+
+//     for(var i = 0; i < words.length - 1; i++){
+//         if( words[i].length <  3 ){
+//             words[i] = words[i] + "\u00A0";
+//         }else{
+//         	words[i] += " ";
+//         }
+//     }
+
+//     return str = words.join("");
+
+// };
+
+
+
+
+
+// var topText = $(".top-text .center-text").text();
+// $(".top-text .center-text").text(textb(topText));
+
 
 
 });
