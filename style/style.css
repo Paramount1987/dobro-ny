@@ -622,10 +622,14 @@ tbody.collapse.in {
     filter: alpha(opacity=100); }
 
 .modal-header {
-  padding: 10px 10px 5px 10px;
-  text-align: right; }
+  position: relative;
+  padding: 40px 10px 5px 10px; }
 
 .modal-header .close {
+  position: absolute;
+  z-index: 5;
+  top: 10px;
+  right: 10px;
   display: inline-block;
   border: 0;
   background: none;
