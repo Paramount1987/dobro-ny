@@ -11,7 +11,7 @@ $('.modal').on('show.bs.modal', function (e) {
 
 	setTimeout(function(){
 		 self.find("[autofocus]").focus();
-		},500);
+		},700);
 
    
 });
