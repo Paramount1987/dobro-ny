@@ -15,7 +15,6 @@ $('.modal').on('show.bs.modal', function (e) {
 
    
 });
-
   ///////////////snow
  //  $.fn.snow();
 

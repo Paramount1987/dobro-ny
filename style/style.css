@@ -759,6 +759,8 @@ tbody.collapse.in {
     color: #168de2; }
   .social-link:hover, .social-link:focus, .social-link:active {
     text-decoration: none; }
+    .social-link:hover:before, .social-link:focus:before, .social-link:active:before {
+      color: #fff; }
 
 @media (min-width: 760px) {
   .social-link {
