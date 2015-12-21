@@ -632,10 +632,11 @@ tbody.collapse.in {
   display: inline-block;
   border: 0;
   background: none;
-  margin-top: -5px;
+  width: 22px;
   font-size: 38px;
   line-height: 38px;
-  outline: 0; }
+  outline: 0;
+  padding: 0; }
 
 .modal-header .nav + .close {
   line-height: 20px;
